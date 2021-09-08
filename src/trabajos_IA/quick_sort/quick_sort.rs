@@ -33,10 +33,10 @@ fn qs(vector: &mut Vec<i64>, low: usize, hight: usize) {
 }
 
 fn quick_sort(vector: &Vec<i64>) -> Vec<i64> {
-    let mut vector = vector.to_vec();
-    let hight = vector.len() - 1;
-    qs(&mut vector, 0, hight);
-    vector.to_vec()
+    let mut vector = vector.clone();
+    let hight = vector.len();
+    qs(&mut vector, 0, hight - 1);
+    vector
 }
 
 fn main() {
