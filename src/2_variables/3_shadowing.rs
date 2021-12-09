@@ -7,7 +7,7 @@ fn main() {
 
     // Si queremos cambiar el el valor de nuestra variable "valor", lo que se haría es 
     // declararlo como mutable, pero ¿si queremos cambiar el valor de la variable sin 
-    // hacerlo mitable??, en este caso cimplemente lo redeclaramos
+    // hacerlo mitable??, en este caso simplemente lo redeclaramos
     let valor = 12;
     println!("El valor de la variable es {}", valor);
 
